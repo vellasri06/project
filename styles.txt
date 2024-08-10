@@ -1,0 +1,167 @@
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 1rem;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar .nav-links li a.active {
+    color: #007BFF;
+}
+
+.hero {
+    background-image: url('https://tse1.explicit.bing.net/th?id=OIP.J0xdEXVOvNRXLI1FqyIomwAAAA&pid=Api&P=0&h=180');
+    background-size: cover;
+    padding: 2rem;
+}
+
+.hero .content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.hero .box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+}
+
+.hero .box i {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+.hero .box h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.hero .box p {
+    color: #333;
+}
+
+.gallery {
+    background-color: #e6e6e6;
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.gallery-item {
+    background-color: #ccc;
+    
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.gallery-section {
+            padding: 20px;
+            background-color: #d3b894;
+            
+        }
+        .gallery-section h2 {
+            text-align: center;
+            
+            margin-bottom: 20px;
+            font-size: 22px;
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .gallery div {
+            width: 32%;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .gallery .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 5px;
+        }
+        .gallery div:hover .overlay {
+            opacity: 1;
+        }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social-icons {
+    margin-top: 1rem;
+}
+
+footer .social-icons i {
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+</style>
