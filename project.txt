@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upper Template</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">⚡ UPPER</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">First Gallery</a></li>
+            <li><a href="#">Second</a></li>
+            <li><a href="#">Third Grid</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="hero">
+        <div class="content">
+            <div class="box">
+                <i class="fas fa-leaf"></i>
+                <h2>Hello Guest</h2>
+                <p>Upper HTML Template contains different background images for pages. Please check Motion Template if you want to see video backgrounds. Feel free to download and use web templates from templatemo.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bicycle"></i>
+                <h2>Welcome!</h2>
+                <p>There are 3 different galleries in this template. You can customize them in any suitable way you prefer. You can also modify the content columns as you wish. Images are from Unsplash website. Good Luck!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h2>Stay relaxed</h2>
+                <p>You can easily change icons in HTML codes by Font Awesome. Praesent tempus dapibus. Curabitur sodales, est auctor congue vulputate, nisl tellus finibus nunc, vitae consectetur enim.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Gallery -->
+    <section class="gallery">
+        <h2>Second Gallery</h2>
+        
+     
+        <center>
+            <p>Aenean nulla lorem, laoreet eu nibh et, lacinia ullamcorper dui. Nullam ut tincidunt odio. <br>
+                Morbi accumsan diam vel enim cursus, in dapibus eros tristique.</p>
+        <div class="gallery">
+
+          
+            <div>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.wiXpQQSguaP4sLUM_1bmEgHaE7&pid=Api&P=0&h=180" alt="Picture One" height="100px" width="2500px" > <!-- Replace with your image -->
+                <div class="overlay">PICTURE ONE</div>
+            </div>
+            <div>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Q8uzEOEThJOHvWLK6KDq-wHaEK&pid=Api&P=0&h=180" alt="Picture Two"> <!-- Replace with your image -->
+                <div class="overlay">PICTURE TWO</div>
+            </div>
+            <div>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.J5LhJJPs2r91I_-xBntoHQHaHa&pid=Api&P=0&h=180" alt="Picture Three"> 
+                <div class="overlay">PICTURE THREE</div>
+            </div>
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Jetc6_gP-Gzw3Q60IBEb6QHaI0&pid=Api&P=0&h=180" alt="Picture Four"> 
+                <div class="overlay">PICTURE FOUR</div>
+            </div>
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.tEyAxvS87g_hf6Y4mS5kxwHaEK&pid=Api&P=0&h=180" alt="Picture Five"> 
+                <div class="overlay">PICTURE FIVE</div>
+            </div>
+            <div>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.eKR7Zc_GjVdunkf-iDlH2AHaE7&pid=Api&P=0&h=180" alt="Picture Six"> 
+                <div class="overlay">PICTURE SIX</div>
+            </div>
+        
+        </div>
+    </center>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © 2016 Your Company - Design: Templatemo</p>
+        <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-behance"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </footer>
+</body>
+</html>
